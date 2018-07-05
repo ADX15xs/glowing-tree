@@ -1,0 +1,20 @@
+#userIfo
+  div
+    | There are 
+    b #{visitors.length} 
+    | visitors and
+    b #{admins.length} 
+    | Administrator(s) in Flag.
+    br
+    br
+  p
+    b Including:
+    br
+    b vistor: 
+    - for(let i=0; i<visitors.length-1; i++)
+      | #{visitors[i].username}, 
+    | #{visitors[visitors.length-1].username} and<br>
+    b Administrator: 
+    - for(let i=0; i<admins.length-1; i++)
+      | #{admins[i].username}, 
+    | #{admins[admins.length-1].username}.

@@ -1,0 +1,74 @@
+#app .headLine {
+    color: #425aa3;
+    background-color: #061136;
+}
+
+
+
+/* 登录页面的夜间模式 */
+#app .login img {
+    filter:brightness(0.3);
+    -webkit-filter:brightness(0.3);
+}
+
+#app .login .inputcss input {
+    background-color: #080d1d;
+    color: #8c8c8c;
+}
+
+#app .login .btn {
+    background-color: #000b2e;
+}
+    #app .login .btn a {
+        color: #8c8c8c;
+    }
+
+#app .login .copyRight {
+    color: #8c8c8c;
+}
+/* 登录页面的夜间模式 end */
+/* 注册的夜间模式 */
+#app .reg img {
+    filter:brightness(0.3);
+    -webkit-filter:brightness(0.3);
+}
+#app .reg .regWarp {
+    background-color: #080d1d;
+    color: #8c8c8c;
+}
+    #app .reg .regWarp .con label, #app .reg .regWarp .con input {
+        background-color: transparent;
+        color: #8c8c8c;
+    }
+    #app .reg .regWarp .con input {
+        border-bottom: 1px solid #8c8c8c;
+    }
+    #app .reg .regBtn1 {
+        background-color: #000b2e;
+    }
+        #app .reg .regBtn1 a {
+            color: #8c8c8c;
+        }
+/* 注册的夜间模式 end */
+/* 个人信息设置 */
+#app .userInfo input {
+    border-bottom: 1px solid #8c8c8c;
+}
+/* 个人信息设置 end */
+/* 其他页面的夜间模式 */
+#mybody {
+    background-color: #00061a;
+    color: #8c8c8c;
+}
+    #mybody .xs214-cell {
+        background-color: #000b2e;
+    }
+    #mybody .xs214-cell input {
+        color: #8c8c8c;
+    }
+        #mybody .xs214-cell .btTab ul li.tabButton .smallsize-font {
+            color: #8c8c8c;
+        }
+        #mybody .xs214-cell .setting {
+            color: #8c8c8c;
+        }

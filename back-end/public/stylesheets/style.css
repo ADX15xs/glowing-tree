@@ -1,0 +1,42 @@
+/* ygywyt */
+@font-face {
+    font-family: 'ygywyt';
+    src: url('/font/YGYWeiYingTi/sfont.eot'),
+         url('/font/YGYWeiYingTi/sfont.svg'),
+         url('/font/YGYWeiYingTi/sfont.ttf'),
+         url('/font/YGYWeiYingTi/sfont.woff'),
+         url('/font/YGYWeiYingTi/sfont.woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-image: url(/images/body-bg.png);
+}
+
+.page-header{
+    color: #fff;
+    background-color: #642e19;
+    box-shadow: 0px 3px 5px #aaa;
+    margin-top: 0;
+    border-bottom: 0;
+}
+    .page-header h1 {
+        margin-top: 0;
+        padding-top: 30px;
+        padding-left: 20px;
+        font-family: ygywyt;
+    }
+
+.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+footer {
+    margin: 1em 0;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    text-align: center;
+    border-top: 1px solid #aaa
+}

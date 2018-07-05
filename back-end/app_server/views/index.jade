@@ -1,0 +1,28 @@
+extends layout
+
+block content
+  div.page-header
+    h1(style="font-size: 50px;") #{title}
+      br
+      small(style="font-size: 16px;") Welcome to #{title}
+  .row
+    .col-md-4.col-sm-12(style="border-right: 1px solid #aaa")
+      ul.nav.nav-pills.flex-column
+        li.nav-item
+          a(href=noJump).nav-link.active(name="userIfo") Home
+        li.nav-item
+          a(href=noJump).nav-link(name="userTable") User
+        li.nav-item
+          a(href=noJump).nav-link(name="addAUser") AddAUser
+    .col-md-8.col-sm-12
+      include userIfo
+      include userTable
+      include addAUser
+
+
+block footer
+  .row
+    footer.col-12
+      p
+        cite(title="Flag") Flag 
+        &copy; Server.com

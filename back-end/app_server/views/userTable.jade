@@ -1,0 +1,20 @@
+table.table.table-hover#userTab
+  thead
+    tr
+      th(scope="col") id
+      th(scope="col") type
+      th(scope="col") username
+      th(scope="col") password
+  tbody
+    - for(let i = 0; i<users.length; i+=2)
+      tr
+        td(scope="row") #{users[i].newid}
+        td #{users[i].usertype}
+        td #{users[i].username}
+        td #{users[i].password}
+      if users[i+1]
+        tr.table-warning
+          td(scope="row") #{users[i+1].newid}
+          td #{users[i+1].usertype}
+          td #{users[i+1].username}
+          td #{users[i+1].password}
